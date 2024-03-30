@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const Redis = require("ioredis");
-const { generateRandomCards } = require("./utils");
+const { generateRandomCards } = require("../utils");
 const redis = new Redis({
   
 });
