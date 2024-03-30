@@ -142,6 +142,6 @@ app.delete("/game", async (req, res) => {
   }
 });
 
-server.listen(3000, () => {
+server.listen(8080, () => {
   console.log("App is running on port 3000");
 });
